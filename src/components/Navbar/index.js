@@ -242,9 +242,7 @@ const Navbar = () => {
                                     <MobileButton href="https://github.com/Meghhanaa" target="blank">Github</MobileButton>
                                     <MobileButton href="https://www.linkedin.com/in/meghana-tamrakar-64804521b/" target="blank">LinkedIn</MobileButton>
                                 </MobileButtonContainer>
-                            </MobileMenu>
-                        
-                        
+                            </MobileMenu>     
                 }
 
             </NavContainer>

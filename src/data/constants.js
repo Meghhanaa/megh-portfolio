@@ -1,6 +1,7 @@
 export const Bio = {
     name: "Meghana Tamrakar",
     roles: [
+      "Software Engineer",
       "Full Stack Developer",
       "Programmer",
       "Data Scientist"
@@ -237,7 +238,7 @@ export const education = [
       school: "Gyanasthali Vidyalaya, Rewa",
       date: "2020",
       grade: "86%",
-      desc: "I completed my class 12 education atGyanasthali Vidyalaya, Rewa",
+      desc: "I completed my class 12 education at Gyanasthali Vidyalaya, Rewa",
       degree: "Central Board Of Secondary Education",
     },
 ];
@@ -283,23 +284,25 @@ export const projects = [
       webapp: "#",
     },
 
-    // {
-    //   // id: 9,
-    //   // title: "",
-    //   // description:
-    //   //   "Implemented a classic Tic Tac Toe game using HTML5, CSS3, JavaScript and ReactJS.",
-    //   // image:
-    //   //   "tictactoe-logo.png",
-    //   // tags: [
-    //   //   "HTML5",
-    //   //   "CSS3",
-    //   //   "JavaScript",
-    //   //   "ReactJs"
-    //   // ],
-    //   // category: "web app",
-    //   // github: "https://github.com/kjcreddy666/tictactoe",
-    //   // webapp: "https://kjcreddy666.github.io/tictactoe",
-    // },
+    {
+      id: 9,
+      title: "QuizLet - The Quiz Management System",
+      description:
+        "Developed QuizLet, a responsive quiz website using PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap, boosting user registrations by 50% and achieving a 95% satisfaction rate. Implemented a robust quiz management system to enhance user engagement and streamline administrative tasks.",
+      image:
+        "quiz.png",
+      tags: [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "ReactJs",
+        "Php",
+        "Mysql"
+      ],
+      category: "web app",
+      github: "https://github.com/Meghhanaa/Quizlet",
+      webapp: "#",
+    },
 
     // {
     //   id: 9,
