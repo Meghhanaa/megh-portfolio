@@ -71,6 +71,7 @@ const NavItems = styled.ul`
     gap : 32px;
     align-items : center;
     list-style : none;
+    margin-right: 2%;
     @media screen and (max-width : 768px) {
         display : none;
     }
@@ -98,6 +99,12 @@ const ButtonContainer = styled.div`
     
     @media screen and (max-width : 768px) {
         display : none;
+    }
+
+    :hover {
+        background-color : ${({theme})=>theme.primary};
+        color : ${({theme})=>theme.white};
+        box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     }
 `;
 
@@ -222,6 +229,7 @@ const Navbar = () => {
                     <NavLink href="#skills">Skills</NavLink>
                     <NavLink href="#projects">Projects</NavLink>
                     <NavLink href="#education">Education</NavLink>
+                    <NavLink href="#contact">Contact</NavLink>
                 </NavItems>
 
                 <ButtonContainer>
@@ -237,6 +245,7 @@ const Navbar = () => {
                                 <MobileLink href="#skills" onClick={()=>setIsOpen(!isOpen)}>Skills</MobileLink>
                                 <MobileLink href="#projects" onClick={()=>setIsOpen(!isOpen)}>Projects</MobileLink>
                                 <MobileLink href="#education" onClick={()=>setIsOpen(!isOpen)}>Education</MobileLink>
+                                <MobileLink href="#contact" onClick={()=>setIsOpen(!isOpen)}>Contact</MobileLink>
                                 <MobileButtonContainer isOpen={isOpen}>
                                     <MobileButton href="https://drive.google.com/file/d/1_hX5YxO1eEPyuymO3eetWrCacSQry5I4/view?usp=drive_link" target="blank">Resume</MobileButton>
                                     <MobileButton href="https://github.com/Meghhanaa" target="blank">Github</MobileButton>
