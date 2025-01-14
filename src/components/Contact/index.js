@@ -122,7 +122,7 @@ const index = () => {
                 </Desc>
                 <ContactSection>
                     <ContactDetails>
-                        <ContactInfo href="tel:9990188211">
+                        <ContactInfo href="tel:9993804738">
                             <PhoneIcon />Reach me @: 9993804738
                         </ContactInfo>
                         <ContactInfo href="mailto:meghanatamrakar0123@gmail.com">
